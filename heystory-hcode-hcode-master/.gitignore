@@ -1,0 +1,22 @@
+logs/
+npm-debug.log
+yarn-error.log
+node_modules/
+package-lock.json
+yarn.lock
+coverage/
+.idea/
+run/
+.DS_Store
+*.sw*
+*.un~
+*.ts
+
+# 动态打包
+app/public/static/
+app/public/resource/static/
+app/public/resource/favicon.ico
+app/view/index.html
+
+# 本地调试截图资源
+qz-attachment/
